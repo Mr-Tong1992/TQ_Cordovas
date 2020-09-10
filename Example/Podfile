@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'newCordavo_Example' do
+  pod 'newCordavo', :path => '../'
+
+  target 'newCordavo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

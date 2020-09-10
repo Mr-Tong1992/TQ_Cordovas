@@ -1,0 +1,16 @@
+PODS:
+  - newCordavo (0.1.0)
+
+DEPENDENCIES:
+  - newCordavo (from `../`)
+
+EXTERNAL SOURCES:
+  newCordavo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  newCordavo: 99e0bda09a681bc96c0446fcdc9925ba15fe6022
+
+PODFILE CHECKSUM: 8b38aeb4b0d354469a4759c85923520c38e73230
+
+COCOAPODS: 1.5.3

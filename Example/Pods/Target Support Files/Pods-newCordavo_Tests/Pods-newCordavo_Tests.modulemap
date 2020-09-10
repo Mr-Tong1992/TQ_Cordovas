@@ -1,0 +1,6 @@
+framework module Pods_newCordavo_Tests {
+  umbrella header "Pods-newCordavo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

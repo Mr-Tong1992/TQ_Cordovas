@@ -1,0 +1,6 @@
+framework module newCordavo {
+  umbrella header "newCordavo-umbrella.h"
+
+  export *
+  module * { export * }
+}

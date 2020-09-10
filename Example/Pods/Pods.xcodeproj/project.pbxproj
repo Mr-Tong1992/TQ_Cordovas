@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056967D309BE249AC4419051D7B964CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0574DF9BEDE628181E02BEEFE2009B9F /* Pods-newCordavo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9209D215091C5D44C8612B4A712EA /* Pods-newCordavo_Example-dummy.m */; };
+		2552B832BA31109B62B0EC78C8319382 /* Pods-newCordavo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B32B682937E6620F32440E6A03ED789C /* Pods-newCordavo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F6A26EF48F6B2AD58E5595C49DC45B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C49087314275188EB31DF1921F4B8 /* ReplaceMe.m */; };
+		2BADA6A01B779D95B6C5000A4074ADF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5E252D1702C8F6C732E25DE49C088869 /* newCordavo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527EC099C62BC04C58ADF2F3D655EC2 /* newCordavo-dummy.m */; };
+		65D50277CFA54E1BCA5AFCB72338010F /* newCordavo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F908B507EE7B0EFC3E917404D19FEE4D /* newCordavo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA10DD1AF0098525090FCA16A8BF05A4 /* Pods-newCordavo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C926327AD2C1ECB332258425C9F389DF /* Pods-newCordavo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3A666B171D4BC983D26DCFC2AEA253 /* Pods-newCordavo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6487CCE8ECDFF60183D8060B603EAC /* Pods-newCordavo_Tests-dummy.m */; };
+		FC28F657C63BCCA8FEAEF382BF51B493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F6DD1A636751BDD46B84C534360E21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25156B7DD3413BD387EDBC091DADC6B;
+			remoteInfo = newCordavo;
+		};
+		96B2C700468E56340362DC4C879A4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF66D405FEFF08691F09B3AF6AF041A0;
+			remoteInfo = "Pods-newCordavo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023F689DAE20F3A2940B60BDB23059FE /* Pods-newCordavo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-newCordavo_Example.modulemap"; sourceTree = "<group>"; };
+		03BB0719264C4E4CFC4777F6AE3CA23F /* Pods-newCordavo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-newCordavo_Tests.modulemap"; sourceTree = "<group>"; };
+		0BB9209D215091C5D44C8612B4A712EA /* Pods-newCordavo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-newCordavo_Example-dummy.m"; sourceTree = "<group>"; };
+		1C68B8C8597BC78349C75C9AC508507F /* newCordavo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = newCordavo.framework; path = newCordavo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085608A6B4B201CE7EBC127D0CC698A /* Pods-newCordavo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-newCordavo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3527EC099C62BC04C58ADF2F3D655EC2 /* newCordavo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "newCordavo-dummy.m"; sourceTree = "<group>"; };
+		39709FF2C2946204E54E9E2DE6072A20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB84209A6D55C2D7C954AD9DA60188 /* Pods-newCordavo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-newCordavo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		458F2223FA9C6BA68F0FE2AF2ECABF2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB21153E3BE80990FCA5DF2341F874A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		69004E1835AF2C489A9F0FEC5EB16BA9 /* Pods-newCordavo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-newCordavo_Tests-resources.sh"; sourceTree = "<group>"; };
+		6B6487CCE8ECDFF60183D8060B603EAC /* Pods-newCordavo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-newCordavo_Tests-dummy.m"; sourceTree = "<group>"; };
+		79ACE77FD976864F0BD3F692A873B279 /* Pods-newCordavo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-newCordavo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DAF1FAB41CE1E4B3A116C70B548B796 /* Pods-newCordavo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-newCordavo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		81256013C3F723035BCD662FA49F86AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9452AAE24DE18F2063A4494A4CBBCE51 /* Pods-newCordavo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-newCordavo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A1A00BB1370FFFF9410712F09867DB78 /* Pods-newCordavo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-newCordavo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF58E91571DE6C2976B9DBF96329F71A /* Pods-newCordavo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-newCordavo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B22D20F09F5AD7D9CE591163897CF4DD /* Pods-newCordavo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-newCordavo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2F8C044F179543104DE2F4827A00CD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B32B682937E6620F32440E6A03ED789C /* Pods-newCordavo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-newCordavo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B40EBFF7CA1D2551D9267E00C13815A2 /* newCordavo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = newCordavo.modulemap; sourceTree = "<group>"; };
+		B6BFAD4E9446F5F3741E21B52C78A5F6 /* Pods_newCordavo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_newCordavo_Example.framework; path = "Pods-newCordavo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEEB242F8739C7CA8C9E40EC759FE46 /* newCordavo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = newCordavo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C926327AD2C1ECB332258425C9F389DF /* Pods-newCordavo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-newCordavo_Example-umbrella.h"; sourceTree = "<group>"; };
+		D31E52D63BE8B051E92174C51FA910C2 /* newCordavo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = newCordavo.xcconfig; sourceTree = "<group>"; };
+		D90C49087314275188EB31DF1921F4B8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = newCordavo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DDA498D84D91D2D30CBE62C8A69A2224 /* Pods-newCordavo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-newCordavo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E10CD51E0AA301E291B40BFAAD077EB8 /* Pods-newCordavo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-newCordavo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E46582A352FE93C2E224251786719995 /* Pods-newCordavo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-newCordavo_Example-resources.sh"; sourceTree = "<group>"; };
+		E52AF601313608EDB0D6D3BEAD2B44A2 /* newCordavo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "newCordavo-prefix.pch"; sourceTree = "<group>"; };
+		ED699A355508AA904CB7FF6534ECE667 /* Pods_newCordavo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_newCordavo_Tests.framework; path = "Pods-newCordavo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F908B507EE7B0EFC3E917404D19FEE4D /* newCordavo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "newCordavo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A322A9D1B0639B885A013CAFC2932E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BADA6A01B779D95B6C5000A4074ADF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A63B62A650C3E4D2B5E5084C6D555B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC28F657C63BCCA8FEAEF382BF51B493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F8BBF1A201D12547F365EDE8FC2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056967D309BE249AC4419051D7B964CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D17DD2B38E7916FDEE47D5547A21F24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A3497EA5DC5C599CA2885CAD18AA713 /* newCordavo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31A1EFDC51FF237D102CB419B0CE3FEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E3B0D3ABD87FF16FEF3B5CDD19D48F /* Pods-newCordavo_Example */,
+				BBEDCCF31C2FF9B81FB17687BB753357 /* Pods-newCordavo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A3497EA5DC5C599CA2885CAD18AA713 /* newCordavo */ = {
+			isa = PBXGroup;
+			children = (
+				D90C49087314275188EB31DF1921F4B8 /* ReplaceMe.m */,
+				6997E626BA0B9D2DB46457D1295A400B /* Pod */,
+				673B56A8BE6BBA874ED7928F4280E8A4 /* Support Files */,
+			);
+			name = newCordavo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		673B56A8BE6BBA874ED7928F4280E8A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				458F2223FA9C6BA68F0FE2AF2ECABF2A /* Info.plist */,
+				B40EBFF7CA1D2551D9267E00C13815A2 /* newCordavo.modulemap */,
+				D31E52D63BE8B051E92174C51FA910C2 /* newCordavo.xcconfig */,
+				3527EC099C62BC04C58ADF2F3D655EC2 /* newCordavo-dummy.m */,
+				E52AF601313608EDB0D6D3BEAD2B44A2 /* newCordavo-prefix.pch */,
+				F908B507EE7B0EFC3E917404D19FEE4D /* newCordavo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/newCordavo";
+			sourceTree = "<group>";
+		};
+		6997E626BA0B9D2DB46457D1295A400B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4DB21153E3BE80990FCA5DF2341F874A /* LICENSE */,
+				BEEEB242F8739C7CA8C9E40EC759FE46 /* newCordavo.podspec */,
+				B2F8C044F179543104DE2F4827A00CD4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3E3B0D3ABD87FF16FEF3B5CDD19D48F /* Pods-newCordavo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				39709FF2C2946204E54E9E2DE6072A20 /* Info.plist */,
+				023F689DAE20F3A2940B60BDB23059FE /* Pods-newCordavo_Example.modulemap */,
+				79ACE77FD976864F0BD3F692A873B279 /* Pods-newCordavo_Example-acknowledgements.markdown */,
+				7DAF1FAB41CE1E4B3A116C70B548B796 /* Pods-newCordavo_Example-acknowledgements.plist */,
+				0BB9209D215091C5D44C8612B4A712EA /* Pods-newCordavo_Example-dummy.m */,
+				DDA498D84D91D2D30CBE62C8A69A2224 /* Pods-newCordavo_Example-frameworks.sh */,
+				E46582A352FE93C2E224251786719995 /* Pods-newCordavo_Example-resources.sh */,
+				C926327AD2C1ECB332258425C9F389DF /* Pods-newCordavo_Example-umbrella.h */,
+				A1A00BB1370FFFF9410712F09867DB78 /* Pods-newCordavo_Example.debug.xcconfig */,
+				9452AAE24DE18F2063A4494A4CBBCE51 /* Pods-newCordavo_Example.release.xcconfig */,
+			);
+			name = "Pods-newCordavo_Example";
+			path = "Target Support Files/Pods-newCordavo_Example";
+			sourceTree = "<group>";
+		};
+		BBEDCCF31C2FF9B81FB17687BB753357 /* Pods-newCordavo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81256013C3F723035BCD662FA49F86AC /* Info.plist */,
+				03BB0719264C4E4CFC4777F6AE3CA23F /* Pods-newCordavo_Tests.modulemap */,
+				B22D20F09F5AD7D9CE591163897CF4DD /* Pods-newCordavo_Tests-acknowledgements.markdown */,
+				2085608A6B4B201CE7EBC127D0CC698A /* Pods-newCordavo_Tests-acknowledgements.plist */,
+				6B6487CCE8ECDFF60183D8060B603EAC /* Pods-newCordavo_Tests-dummy.m */,
+				AF58E91571DE6C2976B9DBF96329F71A /* Pods-newCordavo_Tests-frameworks.sh */,
+				69004E1835AF2C489A9F0FEC5EB16BA9 /* Pods-newCordavo_Tests-resources.sh */,
+				B32B682937E6620F32440E6A03ED789C /* Pods-newCordavo_Tests-umbrella.h */,
+				3ECB84209A6D55C2D7C954AD9DA60188 /* Pods-newCordavo_Tests.debug.xcconfig */,
+				E10CD51E0AA301E291B40BFAAD077EB8 /* Pods-newCordavo_Tests.release.xcconfig */,
+			);
+			name = "Pods-newCordavo_Tests";
+			path = "Target Support Files/Pods-newCordavo_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4007742BBA863A03D915CFDC7DC313B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C68B8C8597BC78349C75C9AC508507F /* newCordavo.framework */,
+				B6BFAD4E9446F5F3741E21B52C78A5F6 /* Pods_newCordavo_Example.framework */,
+				ED699A355508AA904CB7FF6534ECE667 /* Pods_newCordavo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				0D17DD2B38E7916FDEE47D5547A21F24 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C4007742BBA863A03D915CFDC7DC313B /* Products */,
+				31A1EFDC51FF237D102CB419B0CE3FEF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0030B729345F874FCBB41BEC824E7229 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA10DD1AF0098525090FCA16A8BF05A4 /* Pods-newCordavo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8190D1568541EB0D0128B99694763BCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2552B832BA31109B62B0EC78C8319382 /* Pods-newCordavo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD999C01078B47C59D08012E687F539 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D50277CFA54E1BCA5AFCB72338010F /* newCordavo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B8B1D9E9C3A7B332F8A442ECC95EC7F /* Pods-newCordavo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0449C0E9E17200086E1D6577846320E6 /* Build configuration list for PBXNativeTarget "Pods-newCordavo_Tests" */;
+			buildPhases = (
+				8190D1568541EB0D0128B99694763BCA /* Headers */,
+				E3AFD1EF81D5781C4E6EE8CCA078AF80 /* Sources */,
+				C1A63B62A650C3E4D2B5E5084C6D555B /* Frameworks */,
+				B25363EE2A80C1F2BEC98A2EA70D9956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBB4048CBB1882BC3998A990D228C94 /* PBXTargetDependency */,
+			);
+			name = "Pods-newCordavo_Tests";
+			productName = "Pods-newCordavo_Tests";
+			productReference = ED699A355508AA904CB7FF6534ECE667 /* Pods_newCordavo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D25156B7DD3413BD387EDBC091DADC6B /* newCordavo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A01762C5613DA8D199748214E4DC56 /* Build configuration list for PBXNativeTarget "newCordavo" */;
+			buildPhases = (
+				FBD999C01078B47C59D08012E687F539 /* Headers */,
+				F6CDE620809D5E806B02B94E737B424A /* Sources */,
+				A322A9D1B0639B885A013CAFC2932E3D /* Frameworks */,
+				07E89910181B6981E365F4070F4EA09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newCordavo;
+			productName = newCordavo;
+			productReference = 1C68B8C8597BC78349C75C9AC508507F /* newCordavo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF66D405FEFF08691F09B3AF6AF041A0 /* Pods-newCordavo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD5B8A8F0A1A243D5736EEED7D6E865 /* Build configuration list for PBXNativeTarget "Pods-newCordavo_Example" */;
+			buildPhases = (
+				0030B729345F874FCBB41BEC824E7229 /* Headers */,
+				D66EB9D3FF14858203B4D4E2A714F015 /* Sources */,
+				EE8F8BBF1A201D12547F365EDE8FC2CC /* Frameworks */,
+				CFD14F683ED5104EF3974EA2A68ABCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A6A0C09FA2D3BB511542727B7D66D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-newCordavo_Example";
+			productName = "Pods-newCordavo_Example";
+			productReference = B6BFAD4E9446F5F3741E21B52C78A5F6 /* Pods_newCordavo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4007742BBA863A03D915CFDC7DC313B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25156B7DD3413BD387EDBC091DADC6B /* newCordavo */,
+				DF66D405FEFF08691F09B3AF6AF041A0 /* Pods-newCordavo_Example */,
+				9B8B1D9E9C3A7B332F8A442ECC95EC7F /* Pods-newCordavo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E89910181B6981E365F4070F4EA09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25363EE2A80C1F2BEC98A2EA70D9956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD14F683ED5104EF3974EA2A68ABCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66EB9D3FF14858203B4D4E2A714F015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0574DF9BEDE628181E02BEEFE2009B9F /* Pods-newCordavo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AFD1EF81D5781C4E6EE8CCA078AF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3A666B171D4BC983D26DCFC2AEA253 /* Pods-newCordavo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CDE620809D5E806B02B94E737B424A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E252D1702C8F6C732E25DE49C088869 /* newCordavo-dummy.m in Sources */,
+				29F6A26EF48F6B2AD58E5595C49DC45B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A6A0C09FA2D3BB511542727B7D66D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = newCordavo;
+			target = D25156B7DD3413BD387EDBC091DADC6B /* newCordavo */;
+			targetProxy = 8F6DD1A636751BDD46B84C534360E21E /* PBXContainerItemProxy */;
+		};
+		5BBB4048CBB1882BC3998A990D228C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-newCordavo_Example";
+			target = DF66D405FEFF08691F09B3AF6AF041A0 /* Pods-newCordavo_Example */;
+			targetProxy = 96B2C700468E56340362DC4C879A4104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10F3F182791BE69BBA0A97466FDFC90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A00BB1370FFFF9410712F09867DB78 /* Pods-newCordavo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-newCordavo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-newCordavo_Example/Pods-newCordavo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		116E418516AAD1F2929A1DE177B3C7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECB84209A6D55C2D7C954AD9DA60188 /* Pods-newCordavo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-newCordavo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-newCordavo_Tests/Pods-newCordavo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37FF86515F62CE4EA9AC05B72487FAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10CD51E0AA301E291B40BFAAD077EB8 /* Pods-newCordavo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-newCordavo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-newCordavo_Tests/Pods-newCordavo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E8AA9118A8619E67A5EE4A54693CEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31E52D63BE8B051E92174C51FA910C2 /* newCordavo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/newCordavo/newCordavo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/newCordavo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/newCordavo/newCordavo.modulemap";
+				PRODUCT_MODULE_NAME = newCordavo;
+				PRODUCT_NAME = newCordavo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4C8981A3B7839E8DEC74FD3C9462206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9452AAE24DE18F2063A4494A4CBBCE51 /* Pods-newCordavo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-newCordavo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-newCordavo_Example/Pods-newCordavo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5FA6D8BB792F9CFDC23EE3F2DB0D463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31E52D63BE8B051E92174C51FA910C2 /* newCordavo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/newCordavo/newCordavo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/newCordavo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/newCordavo/newCordavo.modulemap";
+				PRODUCT_MODULE_NAME = newCordavo;
+				PRODUCT_NAME = newCordavo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0449C0E9E17200086E1D6577846320E6 /* Build configuration list for PBXNativeTarget "Pods-newCordavo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116E418516AAD1F2929A1DE177B3C7C7 /* Debug */,
+				37FF86515F62CE4EA9AC05B72487FAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A01762C5613DA8D199748214E4DC56 /* Build configuration list for PBXNativeTarget "newCordavo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FA6D8BB792F9CFDC23EE3F2DB0D463 /* Debug */,
+				4E8AA9118A8619E67A5EE4A54693CEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62780A8B4B44B3DFA98345371325579F /* Debug */,
+				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD5B8A8F0A1A243D5736EEED7D6E865 /* Build configuration list for PBXNativeTarget "Pods-newCordavo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F3F182791BE69BBA0A97466FDFC90E /* Debug */,
+				F4C8981A3B7839E8DEC74FD3C9462206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
